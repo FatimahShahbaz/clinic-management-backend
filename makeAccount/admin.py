@@ -1,4 +1,11 @@
 from django.contrib import admin
-from .models import User  # import your custom User model
-admin.site.register(User)
+from .models import User, Doctor, Patient, Appointment, Bill, MedicalRecord, Feedback, DoctorSlot
 
+admin.site.register(User)
+admin.site.register(Doctor)
+admin.site.register(Patient)
+admin.site.register(Appointment)
+admin.site.register(Bill)
+admin.site.register(MedicalRecord)
+admin.site.register(Feedback)
+admin.site.register(DoctorSlot)
